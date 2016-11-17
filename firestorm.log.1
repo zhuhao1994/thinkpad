@@ -1,0 +1,971 @@
+DEBUG main org.apache.http.wire - http-outgoing-0 << "   <div class="col-xs-offset-2 col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="submit" class="btn btn-success btn-block">Sign in</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</form>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << " </div> [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/jquery/jquery-1.10.2.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/bootstrap/js/bootstrap.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Set-Cookie: JSESSIONID=287F32F8966810753E3728C5B8AE7553; Path=/usermange/; HttpOnly
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Language: zh-CN
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 2481
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:02:06 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [JSESSIONID="287F32F8966810753E3728C5B8AE7553", version:0, domain:119.29.110.134, path:/usermange/, expiry:null]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main us.codecraft.webmagic.downloader.HttpClientDownloader - Auto get charset: UTF-8
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange/user/userLogin
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: JSESSIONID][value: 287F32F8966810753E3728C5B8AE7553][domain: 119.29.110.134][path: /usermange/][expiry: null] match [119.29.110.134:8080/usermange/user/userLogin]
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange/user/userLogin HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange/user/userLogin HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Cookie: JSESSIONID=287F32F8966810753E3728C5B8AE7553
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Cookie2: $Version=1
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange/user/userLogin HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Cookie: JSESSIONID=287F32F8966810753E3728C5B8AE7553[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Cookie2: $Version=1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Language: zh-CN[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 2723[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:02:06 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<html>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <base href="http://119.29.110.134:8080/usermange/">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <title>LOGIN</title>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="pragma" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="cache-control" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="expires" content="0">    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="description" content="This is my page">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9] <meta name="viewport" content="width=device-width, initial-scale=1.0">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- Bootstrap -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <link href="http://119.29.110.134:8080/usermange/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!--[if lt IE 9]>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <![endif]-->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="container">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<h1 class="page-header">User Login</h1>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<form action="http://119.29.110.134:8080/usermange/user/userLogin" class="form-horizontal" role="form" method="post">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<div class="row">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<div class="alert alert-danger alert-dismissable col-xs-3 col-xs-offset-2">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <strong>Error!</strong>[0xe7][0x94][0xa8][0xe6][0x88][0xb7][0xe4][0xb8][0x8d][0xe5][0xad][0x98][0xe5][0x9c][0xa8][\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="userName" class="col-xs-2 control-label">UserName</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="text" class="form-control" id="userName" name="username" placeholder="UserName">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="inputPassword3" class="col-xs-2 control-label">Password</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-sm-offset-2 col-sm-10">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <div class="checkbox">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        <label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          <input type="checkbox"> Remember me[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        </label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "   <div class="col-xs-offset-2 col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="submit" class="btn btn-success btn-block">Sign in</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</form>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << " </div> [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/jquery/jquery-1.10.2.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/bootstrap/js/bootstrap.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Language: zh-CN
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 2723
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:02:06 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main us.codecraft.webmagic.downloader.HttpClientDownloader - Auto get charset: UTF-8
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to /119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connection established 192.168.1.110:49857<->119.29.110.134:8080
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 302 Found[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Location: /usermange/[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:04:30 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 302 Found
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Location: /usermange/
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:04:30 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.client.DefaultRedirectStrategy - Redirect requested to location '/usermange/'
+DEBUG main org.apache.http.impl.execchain.RedirectExec - Redirecting to 'http://119.29.110.134:8080/usermange/' via {}->http://119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange/ HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange/ HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange/ HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Set-Cookie: JSESSIONID=C0B63570AF02093216344163B3133241; Path=/usermange/; HttpOnly[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Language: zh-CN[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 2481[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:04:30 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<html>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <base href="http://119.29.110.134:8080/usermange/">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <title>LOGIN</title>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="pragma" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="cache-control" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="expires" content="0">    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="description" content="This is my page">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9] <meta name="viewport" content="width=device-width, initial-scale=1.0">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- Bootstrap -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <link href="http://119.29.110.134:8080/usermange/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!--[if lt IE 9]>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <![endif]-->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="container">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<h1 class="page-header">User Login</h1>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<form action="http://119.29.110.134:8080/usermange/user/userLogin" class="form-horizontal" role="form" method="post">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<div class="row">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="userName" class="col-xs-2 control-label">UserName</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="text" class="form-control" id="userName" name="username" placeholder="UserName">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="inputPassword3" class="col-xs-2 control-label">Password</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-sm-offset-2 col-sm-10">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <div class="checkbox">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        <label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          <input type="checkbox"> Remember me[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        </label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "   <div class="col-xs-offset-2 col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="submit" class="btn btn-success btn-block">Sign in</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</form>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << " </div> [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/jquery/jquery-1.10.2.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/bootstrap/js/bootstrap.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Set-Cookie: JSESSIONID=C0B63570AF02093216344163B3133241; Path=/usermange/; HttpOnly
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Language: zh-CN
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 2481
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:04:30 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [JSESSIONID="C0B63570AF02093216344163B3133241", version:0, domain:119.29.110.134, path:/usermange/, expiry:null]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main us.codecraft.webmagic.downloader.HttpClientDownloader - Auto get charset: UTF-8
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange/user/userLogin
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: JSESSIONID][value: C0B63570AF02093216344163B3133241][domain: 119.29.110.134][path: /usermange/][expiry: null] match [119.29.110.134:8080/usermange/user/userLogin]
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange/user/userLogin HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange/user/userLogin HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: keep-alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip, deflate
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Language: zh-CN,zh;q=0.8
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Cookie: JSESSIONID=C0B63570AF02093216344163B3133241
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Cookie2: $Version=1
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange/user/userLogin HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Language: zh-CN,zh;q=0.8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Cookie: JSESSIONID=C0B63570AF02093216344163B3133241[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Cookie2: $Version=1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Language: zh-CN[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 2723[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:04:30 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<html>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <base href="http://119.29.110.134:8080/usermange/">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <title>LOGIN</title>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="pragma" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="cache-control" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="expires" content="0">    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="description" content="This is my page">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9] <meta name="viewport" content="width=device-width, initial-scale=1.0">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- Bootstrap -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <link href="http://119.29.110.134:8080/usermange/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!--[if lt IE 9]>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <![endif]-->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="container">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<h1 class="page-header">User Login</h1>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<form action="http://119.29.110.134:8080/usermange/user/userLogin" class="form-horizontal" role="form" method="post">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<div class="row">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<div class="alert alert-danger alert-dismissable col-xs-3 col-xs-offset-2">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <strong>Error!</strong>[0xe7][0x94][0xa8][0xe6][0x88][0xb7][0xe4][0xb8][0x8d][0xe5][0xad][0x98][0xe5][0x9c][0xa8][\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="userName" class="col-xs-2 control-label">UserName</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="text" class="form-control" id="userName" name="username" placeholder="UserName">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="inputPassword3" class="col-xs-2 control-label">Password</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-sm-offset-2 col-sm-10">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <div class="checkbox">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        <label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          <input type="checkbox"> Remember me[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        </label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "   <div class="col-xs-offset-2 col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="submit" class="btn btn-success btn-block">Sign in</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</form>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << " </div> [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/jquery/jquery-1.10.2.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/bootstrap/js/bootstrap.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Language: zh-CN
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 2723
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:04:30 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main us.codecraft.webmagic.downloader.HttpClientDownloader - Auto get charset: UTF-8
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to /119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connection established 192.168.1.110:49872<->119.29.110.134:8080
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 302 Found[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Location: /usermange/[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:04:55 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 302 Found
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Location: /usermange/
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:04:55 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.client.DefaultRedirectStrategy - Redirect requested to location '/usermange/'
+DEBUG main org.apache.http.impl.execchain.RedirectExec - Redirecting to 'http://119.29.110.134:8080/usermange/' via {}->http://119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange/ HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange/ HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange/ HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Set-Cookie: JSESSIONID=24C72E68FEF7987FF743C9517B829EBC; Path=/usermange/; HttpOnly[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Language: zh-CN[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 2481[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:04:55 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<html>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <base href="http://119.29.110.134:8080/usermange/">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <title>LOGIN</title>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="pragma" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="cache-control" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="expires" content="0">    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="description" content="This is my page">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9] <meta name="viewport" content="width=device-width, initial-scale=1.0">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- Bootstrap -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <link href="http://119.29.110.134:8080/usermange/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!--[if lt IE 9]>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <![endif]-->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="container">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<h1 class="page-header">User Login</h1>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<form action="http://119.29.110.134:8080/usermange/user/userLogin" class="form-horizontal" role="form" method="post">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<div class="row">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="userName" class="col-xs-2 control-label">UserName</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="text" class="form-control" id="userName" name="username" placeholder="UserName">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="inputPassword3" class="col-xs-2 control-label">Password</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-sm-offset-2 col-sm-10">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <div class="checkbox">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        <label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          <input type="checkbox"> Remember me[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        </label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "   <div class="col-xs-offset-2 col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="submit" class="btn btn-success btn-block">Sign in</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</form>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << " </div> [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/jquery/jquery-1.10.2.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/bootstrap/js/bootstrap.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Set-Cookie: JSESSIONID=24C72E68FEF7987FF743C9517B829EBC; Path=/usermange/; HttpOnly
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Language: zh-CN
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 2481
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:04:55 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [JSESSIONID="24C72E68FEF7987FF743C9517B829EBC", version:0, domain:119.29.110.134, path:/usermange/, expiry:null]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main us.codecraft.webmagic.downloader.HttpClientDownloader - Auto get charset: UTF-8
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange/user/userLogin
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - Cookie [version: 0][name: JSESSIONID][value: 24C72E68FEF7987FF743C9517B829EBC][domain: 119.29.110.134][path: /usermange/][expiry: null] match [119.29.110.134:8080/usermange/user/userLogin]
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange/user/userLogin HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange/user/userLogin HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: keep-alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip, deflate
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Language: zh-CN,zh;q=0.8
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Cookie: JSESSIONID=24C72E68FEF7987FF743C9517B829EBC
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Cookie2: $Version=1
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange/user/userLogin HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip, deflate[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Language: zh-CN,zh;q=0.8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Cookie: JSESSIONID=24C72E68FEF7987FF743C9517B829EBC[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Cookie2: $Version=1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Language: zh-CN[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 2723[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:04:55 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<html>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <base href="http://119.29.110.134:8080/usermange/">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <title>LOGIN</title>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="pragma" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="cache-control" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="expires" content="0">    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="description" content="This is my page">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9] <meta name="viewport" content="width=device-width, initial-scale=1.0">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- Bootstrap -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <link href="http://119.29.110.134:8080/usermange/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!--[if lt IE 9]>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <![endif]-->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="container">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<h1 class="page-header">User Login</h1>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<form action="http://119.29.110.134:8080/usermange/user/userLogin" class="form-horizontal" role="form" method="post">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<div class="row">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<div class="alert alert-danger alert-dismissable col-xs-3 col-xs-offset-2">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <strong>Error!</strong>[0xe7][0x94][0xa8][0xe6][0x88][0xb7][0xe4][0xb8][0x8d][0xe5][0xad][0x98][0xe5][0x9c][0xa8][\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="userName" class="col-xs-2 control-label">UserName</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="text" class="form-control" id="userName" name="username" placeholder="UserName">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="inputPassword3" class="col-xs-2 control-label">Password</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-sm-offset-2 col-sm-10">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <div class="checkbox">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        <label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          <input type="checkbox"> Remember me[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        </label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "   <div class="col-xs-offset-2 col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="submit" class="btn btn-success btn-block">Sign in</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</form>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << " </div> [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/jquery/jquery-1.10.2.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/bootstrap/js/bootstrap.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Language: zh-CN
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 2723
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:04:55 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main us.codecraft.webmagic.downloader.HttpClientDownloader - Auto get charset: UTF-8
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to /119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connection established 192.168.1.110:49889<->119.29.110.134:8080
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 302 Found[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Location: /usermange/[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:05:30 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 302 Found
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Location: /usermange/
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:05:30 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.client.DefaultRedirectStrategy - Redirect requested to location '/usermange/'
+DEBUG main org.apache.http.impl.execchain.RedirectExec - Redirecting to 'http://119.29.110.134:8080/usermange/' via {}->http://119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange/ HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange/ HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange/ HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Set-Cookie: JSESSIONID=0B6D17A536255FBE2E76F42BA93491F4; Path=/usermange/; HttpOnly[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Language: zh-CN[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 2481[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:05:30 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<html>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <base href="http://119.29.110.134:8080/usermange/">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <title>LOGIN</title>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="pragma" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="cache-control" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="expires" content="0">    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="description" content="This is my page">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9] <meta name="viewport" content="width=device-width, initial-scale=1.0">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- Bootstrap -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <link href="http://119.29.110.134:8080/usermange/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!--[if lt IE 9]>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <![endif]-->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="container">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<h1 class="page-header">User Login</h1>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<form action="http://119.29.110.134:8080/usermange/user/userLogin" class="form-horizontal" role="form" method="post">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<div class="row">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="userName" class="col-xs-2 control-label">UserName</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="text" class="form-control" id="userName" name="username" placeholder="UserName">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="inputPassword3" class="col-xs-2 control-label">Password</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-sm-offset-2 col-sm-10">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <div class="checkbox">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        <label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          <input type="checkbox"> Remember me[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        </label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "   <div class="col-xs-offset-2 col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="submit" class="btn btn-success btn-block">Sign in</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</form>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << " </div> [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/jquery/jquery-1.10.2.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/bootstrap/js/bootstrap.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Set-Cookie: JSESSIONID=0B6D17A536255FBE2E76F42BA93491F4; Path=/usermange/; HttpOnly
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Language: zh-CN
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 2481
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:05:30 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [JSESSIONID="0B6D17A536255FBE2E76F42BA93491F4", version:0, domain:119.29.110.134, path:/usermange/, expiry:null]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main us.codecraft.webmagic.downloader.HttpClientDownloader - Auto get charset: UTF-8
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange/user/userLogin
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to /119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connection established 192.168.1.110:50004<->119.29.110.134:8080
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 302 Found[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Location: /usermange/[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:11:20 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 302 Found
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Location: /usermange/
+DEBUG main org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:11:20 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.impl.client.DefaultRedirectStrategy - Redirect requested to location '/usermange/'
+DEBUG main org.apache.http.impl.execchain.RedirectExec - Redirecting to 'http://119.29.110.134:8080/usermange/' via {}->http://119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Stale connection check
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Read timed out"
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange/ HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG main org.apache.http.headers - http-outgoing-0 >> GET /usermange/ HTTP/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Host: 119.29.110.134:8080
+DEBUG main org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG main org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "GET /usermange/ HTTP/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Host: 119.29.110.134:8080[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Set-Cookie: JSESSIONID=7B8B707B1F00660D0190F9AFF1F104DE; Path=/usermange/; HttpOnly[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Language: zh-CN[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 2481[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 17 Nov 2016 15:11:20 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<html>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <base href="http://119.29.110.134:8080/usermange/">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <title>LOGIN</title>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="pragma" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="cache-control" content="no-cache">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="expires" content="0">    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9]<meta http-equiv="description" content="This is my page">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[0x9] <meta name="viewport" content="width=device-width, initial-scale=1.0">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- Bootstrap -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <link href="http://119.29.110.134:8080/usermange/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <!--[if lt IE 9]>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <![endif]-->[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </head>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="container">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<h1 class="page-header">User Login</h1>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<form action="http://119.29.110.134:8080/usermange/user/userLogin" class="form-horizontal" role="form" method="post">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "<div class="row">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="userName" class="col-xs-2 control-label">UserName</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="text" class="form-control" id="userName" name="username" placeholder="UserName">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <label for="inputPassword3" class="col-xs-2 control-label">Password</label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <input type="password" class="form-control" name="password" id="inputPassword3" placeholder="Password">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <div class="col-sm-offset-2 col-sm-10">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <div class="checkbox">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        <label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "          <input type="checkbox"> Remember me[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "        </label>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  <div class="form-group">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "   <div class="col-xs-offset-2 col-xs-3">[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "      <button type="submit" class="btn btn-success btn-block">Sign in</button>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </div>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</form>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << " </div> [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/jquery/jquery-1.10.2.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "    <script src="http://119.29.110.134:8080/usermange/plugins/bootstrap/js/bootstrap.min.js"></script>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "  </body>[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "</html>[\r][\n]"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Server: Apache-Coyote/1.1
+DEBUG main org.apache.http.headers - http-outgoing-0 << Set-Cookie: JSESSIONID=7B8B707B1F00660D0190F9AFF1F104DE; Path=/usermange/; HttpOnly
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Language: zh-CN
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 2481
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 17 Nov 2016 15:11:20 GMT
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [JSESSIONID="7B8B707B1F00660D0190F9AFF1F104DE", version:0, domain:119.29.110.134, path:/usermange/, expiry:null]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {}->http://119.29.110.134:8080] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main us.codecraft.webmagic.downloader.HttpClientDownloader - Auto get charset: UTF-8
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange/user/userLogin
+INFO main us.codecraft.webmagic.downloader.HttpClientDownloader - downloading page http://119.29.110.134:8080/usermange
+DEBUG main org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+DEBUG main org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 20]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://119.29.110.134:8080][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 20]
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connecting to /119.29.110.134:8080
+DEBUG main org.apache.http.impl.conn.HttpClientConnectionOperator - Connection established 192.168.1.110:50011<->119.29.110.134:8080
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Executing request GET /usermange HTTP/1.1
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
